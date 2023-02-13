@@ -1,0 +1,6 @@
+score=int(input("score: "))
+if(score>=81): print('A')
+elif (score>=61): print('B')
+elif score>=41: print('C')
+elif score>=21: print("D")
+else: print("E")
