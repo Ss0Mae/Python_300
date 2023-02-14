@@ -1,11 +1,10 @@
-import requests
-btc = requests.get("https://api.bithumb.com/public/ticker/").json()['data']
-
-변동폭 = float(btc['max_price']) - float(btc['min_price'])
-시가 = float(btc['opening_price'])
-최고가 = float(btc['max_price'])
-
-if (시가+변동폭) > 최고가:
-    print("상승장")
-else:
-    print("하락장")
+#131 사과 귤 수박
+#132 #####/#####/#####
+#133 print("A") print("B") print("C")
+#134    print("출력:", "A")
+#       print("출력:", "B")
+#       print("출력:", "C")
+#135 for num in[10,20,30]: print(num)
+#136 for 변수 in [10, 20, 30]:
+#       print(변수)
+#137
